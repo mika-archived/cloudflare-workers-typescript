@@ -7,5 +7,5 @@ addEventListener("fetch", (event: Event) => {
  * Fetch and log a request
  */
 async function handleRequest(request: Request): Promise<Response> {
-  return new Response("Hello worker with webpack written in TypeScript!", { status: 200 });
+  return new Response("Hello worker written in TypeScript that compiled by webpack", { status: 200 });
 }
