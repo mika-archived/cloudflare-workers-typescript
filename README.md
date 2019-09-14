@@ -1,17 +1,18 @@
-# 👷 `worker-template` Hello World
+# Cloudflare Workers - TypeScript
 
-A template for kick starting a Cloudflare worker project.
+Cloudflare Worker written in TypeScript.
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
 
-#### Wrangler
+## Development
 
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
+Start a preview:
 
+```bash
+> yarn start
 ```
-wrangler generate projectname https://github.com/cloudflare/worker-template
+
+Build a worker:
+
+```bash
+> yarn build
 ```
-
-#### Serverless
-
-To deploy using serverless add a [`serverless.yml`](https://serverless.com/framework/docs/providers/cloudflare/) file.
