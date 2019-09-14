@@ -108,6 +108,7 @@ Cargo.lock
 
 # Wrangler generated
 bin/
+dist/
 pkg/
 worker/
 .cargo-ok
